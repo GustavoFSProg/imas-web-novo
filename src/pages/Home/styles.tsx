@@ -51,7 +51,7 @@ export const Title = styled.span`
   color: #ffffff;
 
   @media screen and (max-width: 600px) {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   @media screen and (min-width: 600px) and (max-width: 920px) {
