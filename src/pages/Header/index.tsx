@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Logo, ContainerLogo } from './styles'
-import logo from '../../assets/04-logo.svg'
+import logo from '../../assets/4logo.svg'
 
 function Header() {
   return (

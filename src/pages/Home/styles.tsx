@@ -50,6 +50,26 @@ export const Title = styled.span`
     font-size: 1.7rem;
   }
 `
+export const Line = styled.div`
+  position: absolute;
+  width: 22%;
+  height: 0px;
+  left: 15.5%;
+  margin-top: 20.78px;
+
+  border: 2px solid #ffffff;
+
+  @media screen and (max-width: 900px) {
+    display: none;
+    /* width: 40%;
+    height: 0px;
+    left: 22%;
+    margin-top: 20.78px;
+
+    border: 2px solid #ffffff; */
+  }
+`
+
 export const Logo = styled.img`
   width: 13%;
   background: green;

@@ -46,10 +46,9 @@ export const Logo = styled.img`
   @media screen and (max-width: 400px) {
     width: 40%;
   }
-
   @media screen and (min-width: 400px) and (max-width: 800px) {
     width: 25%;
-  } ;
+  }
 `
 
 export const ImageFooter = styled.p`

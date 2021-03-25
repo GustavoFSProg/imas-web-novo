@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardContainer, TitleContainer, Container, Title } from './styles'
+import { CardContainer, Line, TitleContainer, Container, Title } from './styles'
 
 function Home() {
   return (
@@ -9,6 +9,7 @@ function Home() {
           <TitleContainer>
             <Title>Ímãs de geladeira, fotografias e albuns</Title>
           </TitleContainer>
+          <Line />
         </CardContainer>
       </Container>
     </>
