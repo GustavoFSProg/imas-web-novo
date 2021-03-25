@@ -49,6 +49,10 @@ export const Title = styled.span`
   @media screen and (max-width: 600px) {
     font-size: 1.7rem;
   }
+
+  @media screen and (min-width: 600px) and (max-width: 920px) {
+    font-size: 2rem;
+  }
 `
 export const Line = styled.div`
   position: absolute;
@@ -63,7 +67,7 @@ export const Line = styled.div`
     display: none;
     /* width: 40%;
     height: 0px;
-    left: 22%;
+    left: 16%;
     margin-top: 20.78px;
 
     border: 2px solid #ffffff; */
