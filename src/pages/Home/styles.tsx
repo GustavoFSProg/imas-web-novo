@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const CardContainer = styled.div`
   width: 75%;
-  height: 416px;
+  height: 437px;
   background: #1aa27c;
   /* background: yellow; */
   border-radius: 12px;
@@ -11,11 +11,12 @@ export const CardContainer = styled.div`
   /* color: yellow; */
   font-size: 25px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   @media screen and (max-width: 600px) {
     display: flex;
     flex-direction: column;
+    height: 600px;
   }
 `
 
@@ -40,10 +41,12 @@ export const ImageContainer = styled.div`
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   justify-content: center;
   background: #e5e5e5;
+  height: auto;
 `
 export const TitleContainer = styled.div`
   width: 45%;
@@ -51,9 +54,10 @@ export const TitleContainer = styled.div`
   height: 116px;
   margin-left: 30px;
   display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  /* text-align: center; */
+  /* justify-content: center; */
 
   @media screen and (max-width: 600px) {
     width: 65%;
@@ -68,6 +72,7 @@ export const Title = styled.span`
   font-weight: normal;
   font-size: 3rem;
   line-height: 64, 8px;
+  /* background: orange; */
   /* or 0% */
   /* 
   display: flex;
@@ -80,6 +85,8 @@ export const Title = styled.span`
   @media screen and (max-width: 600px) {
     font-size: 1.4rem;
     font-weight: 400;
+    width: 125%;
+    margin-left: -6px;
   }
 
   @media screen and (min-width: 600px) and (max-width: 920px) {
@@ -90,27 +97,29 @@ export const ImagemIman = styled.img`
   @media screen and (min-width: 601px) {
     width: 70%;
     height: 50%;
-    margin-left: 30%;
     margin-top: 72%;
   }
 
   @media screen and (max-width: 600px) {
-    width: 40%;
-    height: 60%;
+    width: 60%;
+    height: 80%;
     margin-top: 12%;
+    margin-left: -25%;
   }
 `
 export const ContainerImage = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: right;
+  align-items: right; */
+  margin-left: 100px;
 `
 export const Line = styled.div`
   position: absolute;
   width: 22%;
   height: 0px;
   left: 15.5%;
-  margin-top: 20.78px;
+  margin-top: 155.78px;
 
   border: 2px solid #ffffff;
 
@@ -139,12 +148,24 @@ export const Logo = styled.img`
 `
 
 export const ContainerTexto = styled.div`
-  width: 30%;
-  height: 50%;
-  background: blue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 70%;
+  height: 10%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-left: 3%;
+  margin-top: 5rem;
+  text-align: left;
+  font-size: 20px;
+  font-family: Lato;
+
+  line-height: 32px;
+
+  @media screen and (max-width: 500px) {
+    width: 105%;
+    margin-top: 148px;
+    margin-top: 13.2rem;
+  }
 `
 
 export const ImageFooter = styled.p`
