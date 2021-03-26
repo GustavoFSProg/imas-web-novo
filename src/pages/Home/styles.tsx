@@ -11,13 +11,33 @@ export const CardContainer = styled.div`
   /* color: yellow; */
   font-size: 25px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   @media screen and (max-width: 600px) {
     display: flex;
     flex-direction: column;
   }
 `
+
+export const ImageContainer = styled.div`
+  width: 75%;
+  height: 416px;
+  background: #1aa27c;
+  /* background: yellow; */
+  border-radius: 12px;
+  margin-top: 20px;
+  color: white;
+  /* color: yellow; */
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
+`
+
 export const Container = styled.div`
   display: flex;
   align-items: center;
@@ -82,6 +102,7 @@ export const ImagemIman = styled.img`
 `
 export const ContainerImage = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: center;
 `
 export const Line = styled.div`
@@ -115,6 +136,15 @@ export const Logo = styled.img`
   @media screen and (min-width: 400px) and (max-width: 800px) {
     width: 25%;
   } ;
+`
+
+export const ContainerTexto = styled.div`
+  width: 30%;
+  height: 50%;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 export const ImageFooter = styled.p`
