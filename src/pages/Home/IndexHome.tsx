@@ -1,5 +1,14 @@
 import React from 'react'
-import { CardContainer, Line, TitleContainer, Container, Title } from './styles'
+import {
+  CardContainer,
+  Line,
+  ContainerImage,
+  TitleContainer,
+  Container,
+  Title,
+  ImagemIman,
+} from './styles'
+import ImanImage from '../../assets/Ellipse 8.png'
 
 function Home() {
   return (
@@ -9,8 +18,12 @@ function Home() {
           <TitleContainer>
             <Title>Ímãs de geladeira, fotografias e albuns</Title>
           </TitleContainer>
-          <Line />
+
+          <ContainerImage>
+            <ImagemIman src={ImanImage} alt="ImanImage" />
+          </ContainerImage>
         </CardContainer>
+        <Line />
       </Container>
     </>
   )

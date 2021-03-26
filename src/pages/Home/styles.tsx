@@ -10,6 +10,13 @@ export const CardContainer = styled.div`
   color: white;
   /* color: yellow; */
   font-size: 25px;
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
 `
 export const Container = styled.div`
   display: flex;
@@ -58,6 +65,24 @@ export const Title = styled.span`
   @media screen and (min-width: 600px) and (max-width: 920px) {
     font-size: 2rem;
   }
+`
+export const ImagemIman = styled.img`
+  @media screen and (min-width: 601px) {
+    width: 70%;
+    height: 50%;
+    margin-left: 30%;
+    margin-top: 72%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 40%;
+    height: 60%;
+    margin-top: 12%;
+  }
+`
+export const ContainerImage = styled.div`
+  display: flex;
+  justify-content: center;
 `
 export const Line = styled.div`
   position: absolute;
