@@ -164,7 +164,7 @@ export const ContainerTexto = styled.div`
   @media screen and (max-width: 500px) {
     width: 105%;
     margin-top: 148px;
-    margin-top: 13.2rem;
+    margin-top: 12.2rem;
   }
 `
 
