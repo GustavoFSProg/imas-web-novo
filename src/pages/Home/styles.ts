@@ -30,12 +30,24 @@ export const Footer = styled.div`
   left: 1px;
   top: 1000px;
   margin-top: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   background: #f77d27;
 
   @media screen and (max-width: 600px) {
     margin-top: 120px;
+    flex-direction: column;
+    height: 342px;
   }
+`
+export const Data = styled.p`
+  color: white;
+  font-size: 12px;
+  width: 180px;
+  line-height: 18px;
+  font-family: Lato;
 `
 
 export const ImageContainer = styled.div`
