@@ -10,6 +10,7 @@ import {
   ContainerTexto,
   ContainerFoto,
   Image,
+  Footer,
 } from './styles'
 import ImanImage from '../../assets/Ellipse 8.png'
 import fotos from '../../assets/placas2.png'
@@ -44,6 +45,7 @@ function Home() {
             <ImagemIman src={ImanImage} alt="ImanImage" />
           </ContainerImage>
         </CardContainer>
+        <Footer></Footer>
       </Container>
     </>
   )

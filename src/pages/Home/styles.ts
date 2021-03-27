@@ -23,6 +23,20 @@ export const CardContainer = styled.div`
     height: 400px;
   }
 `
+export const Footer = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 92px;
+  left: 1px;
+  top: 1000px;
+  margin-top: 320px;
+
+  background: #f77d27;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 120px;
+  }
+`
 
 export const ImageContainer = styled.div`
   width: 75%;
@@ -50,7 +64,7 @@ export const Container = styled.div`
   text-align: center;
   justify-content: center;
   background: #e5e5e5;
-  height: auto;
+  height: 100%;
 `
 export const TitleContainer = styled.div`
   width: 45%;
