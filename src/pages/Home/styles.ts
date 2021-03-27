@@ -6,7 +6,7 @@ export const CardContainer = styled.div`
   background: #1aa27c;
   /* background: yellow; */
   border-radius: 12px;
-  margin-top: 20px;
+  margin-top: 86px;
   color: white;
   /* color: yellow; */
   font-size: 25px;
@@ -189,4 +189,33 @@ export const ImageFooter = styled.p`
   letter-spacing: 0.01em;
 
   color: #ffffff;
+`
+// export const ConainerFoto = styled.div`
+//   position: absolute;
+//   width: 192.15px;
+//   height: 77.09px;
+//   left: 85.07px;
+//   top: 82.29px;
+//   background: orange;
+// `
+
+export const ContainerFoto = styled.div`
+  display: flex;
+  flex-direction: row;
+  /* justify-content: right;
+    align-items: right; */
+
+  position: absolute;
+  width: 100%;
+  height: 70.09px;
+  top: 82.29px;
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+`
+
+export const Image = styled.img`
+  width: 10%;
+  height: 100%;
 `
