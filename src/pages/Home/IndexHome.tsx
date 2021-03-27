@@ -15,7 +15,6 @@ import {
 } from './styles'
 import ImanImage from '../../assets/Ellipse 8.png'
 import fotos from '../../assets/placas2.png'
-import insta from '../../assets/Instagram.svg'
 
 function Home() {
   return (
