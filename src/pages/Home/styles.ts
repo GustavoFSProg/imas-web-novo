@@ -13,10 +13,14 @@ export const CardContainer = styled.div`
   display: flex;
   flex-direction: row;
 
+  @media screen and (max-width: 850px) {
+    margin-top: 30px;
+    height: 650px;
+  }
+
   @media screen and (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-    height: 600px;
+    margin-top: 30px;
+    height: 400px;
   }
 `
 
@@ -113,6 +117,10 @@ export const ContainerImage = styled.div`
   /* justify-content: right;
   align-items: right; */
   margin-left: 100px;
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `
 export const Line = styled.div`
   position: absolute;
@@ -161,10 +169,16 @@ export const ContainerTexto = styled.div`
 
   line-height: 32px;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     width: 105%;
     margin-top: 148px;
-    margin-top: 12.2rem;
+    margin-top: 3.2rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    width: 105%;
+    margin-top: 148px;
+    margin-top: 2.2rem;
   }
 `
 
