@@ -1,19 +1,17 @@
 import styled from 'styled-components'
 
 export const CardContainer = styled.div`
-  width: 95%;
+  width: 75%;
   height: 437px;
   background: #1aa27c;
   /* background: yellow; */
   border-radius: 12px;
-  margin-top: 36px;
+  margin-top: 86px;
   color: white;
   /* color: yellow; */
   font-size: 25px;
   display: flex;
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
 
   @media screen and (max-width: 850px) {
     margin-top: 30px;
@@ -64,16 +62,6 @@ export const ImageContainer = styled.div`
   font-size: 25px;
   display: flex;
   flex-direction: column;
-
-  @media screen and (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-  }
-`
-
-export const ImagemCard = styled.img`
-  width: 70%;
-  height: 50%;
 
   @media screen and (max-width: 600px) {
     display: flex;

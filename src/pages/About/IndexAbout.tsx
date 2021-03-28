@@ -1,13 +1,26 @@
 import React from 'react'
-import { CardContainer, ImagemCard, Container, Footer, Data } from './styles'
-// import ImanImage from '../../assets/Ellipse 8.png'
-import card from '../../assets/Card.png'
+import {
+  CardContainer,
+  Line,
+  ContainerImage,
+  TitleContainer,
+  Container,
+  Title,
+  ImagemIman,
+  ContainerTexto,
+  ContainerFoto,
+  Image,
+  Footer,
+  Data,
+} from './styles'
+import ImanImage from '../../assets/Ellipse 8.png'
+import fotos from '../../assets/placas2.png'
 
-function Home() {
+function About() {
   return (
     <>
       <Container>
-        {/* <ContainerFoto>
+        <ContainerFoto>
           <Image src={fotos} alt="foto" />
           <Image src={fotos} alt="foto" />
           <Image src={fotos} alt="foto" />
@@ -18,9 +31,20 @@ function Home() {
           <Image src={fotos} alt="foto" />
           <Image src={fotos} alt="foto" />
           <Image src={fotos} alt="foto" />
-        </ContainerFoto> */}
+        </ContainerFoto>
         <CardContainer>
-          <ImagemCard src={card} alt="cardFoto" />
+          <TitleContainer>
+            <Title>Ímãs de geladeira, fotografias e albuns</Title>
+            <Line />
+            <ContainerTexto>
+              Há mais de 5 anos no mercado, especializada em ímãs temáticos para geladeiras e muito
+              mais.
+            </ContainerTexto>
+          </TitleContainer>
+
+          <ContainerImage>
+            <ImagemIman src={ImanImage} alt="ImanImage" />
+          </ContainerImage>
         </CardContainer>
         <Footer>
           <Data>©2020 Imagens.Arte CNPJ: 29.779.590/0001-84 São Leopoldo-RS</Data>
@@ -32,4 +56,4 @@ function Home() {
   )
 }
 
-export default Home
+export default About
