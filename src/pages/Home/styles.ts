@@ -299,6 +299,10 @@ export const ImagemAvatar = styled.img`
   align-items: left;
   justify-content: left;
   display: flex;
+
+  @media screen and (max-width: 420px) {
+    margin-left: 0px;
+  }
 `
 
 export const ImagemFace = styled.img`
@@ -308,6 +312,10 @@ export const ImagemFace = styled.img`
   align-items: right;
   justify-content: right;
   display: flex;
+
+  @media screen and (max-width: 420px) {
+    margin-right: 0px;
+  }
 `
 
 export const TextOne = styled.img`
@@ -320,16 +328,27 @@ export const TextOne = styled.img`
   margin-top: 10%;
   height: 20%;
   padding-bottom: 20px;
+
+  @media screen and (max-width: 420px) {
+    height: auto;
+    width: 122%;
+  }
 `
 
 export const TextTwo = styled.img`
-  width: 67%;
+  width: 77%;
   margin-right: 20px;
   margin-top: 10px;
   align-items: right;
   justify-content: right;
   display: flex;
   padding-bottom: 7px;
+
+  @media screen and (max-width: 420px) {
+    height: auto;
+    width: 122%;
+    margin-top: -10px;
+  }
 `
 
 export const TextThre = styled.img`
@@ -340,6 +359,12 @@ export const TextThre = styled.img`
   align-items: right;
   justify-content: right;
   display: flex;
+
+  @media screen and (max-width: 420px) {
+    height: auto;
+    width: 172%;
+    margin-top: 4px;
+  }
 `
 
 export const TextAll = styled.div`
@@ -351,4 +376,5 @@ export const TextAll = styled.div`
   /* justify-content: center; */
   line-height: 43.2px;
   margin-top: 12px;
+  margin-bottom: 20px;
 `
