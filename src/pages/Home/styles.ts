@@ -284,8 +284,11 @@ export const PromoContainer = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 420px) {
     flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 90%;
   }
 `
 
@@ -299,10 +302,53 @@ export const ImagemAvatar = styled.img`
 `
 
 export const ImagemFace = styled.img`
-  width: 18%;
+  width: 22%;
   margin-right: 20px;
   margin-top: 10px;
   align-items: right;
   justify-content: right;
   display: flex;
+`
+
+export const TextOne = styled.img`
+  width: 83%;
+  margin-right: 20px;
+  margin-top: 15px;
+  align-items: right;
+  justify-content: right;
+  display: flex;
+  margin-top: 10%;
+  height: 20%;
+  padding-bottom: 20px;
+`
+
+export const TextTwo = styled.img`
+  width: 67%;
+  margin-right: 20px;
+  margin-top: 10px;
+  align-items: right;
+  justify-content: right;
+  display: flex;
+  padding-bottom: 7px;
+`
+
+export const TextThre = styled.img`
+  width: 100%;
+  height: 8%;
+  margin-right: 20px;
+  margin-top: 10px;
+  align-items: right;
+  justify-content: right;
+  display: flex;
+`
+
+export const TextAll = styled.div`
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  line-height: 43.2px;
+  margin-top: 12px;
 `

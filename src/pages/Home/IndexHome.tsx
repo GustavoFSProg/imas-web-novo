@@ -7,10 +7,17 @@ import {
   Footer,
   Data,
   PromoContainer,
+  TextOne,
+  TextAll,
+  TextTwo,
+  TextThre,
 } from './styles'
 // import ImanImage from '../../assets/Ellipse 8.png'
 import Avatar from '../../assets/Card/BASTA.png'
 import Face from '../../assets/Card/FRIDA.png'
+import TextOneImage from '../../assets/Card/Texto.png'
+import Text1Image from '../../assets/Card/Texto-1.png'
+import Text3 from '../../assets/Card/Texto-2.png'
 
 function Home() {
   return (
@@ -31,6 +38,11 @@ function Home() {
         <CardContainer>
           <PromoContainer>
             <ImagemAvatar src={Avatar} alt="avatar" />
+            <TextAll>
+              <TextOne src={TextOneImage} alt="text1" />
+              <TextTwo src={Text1Image} alt="textOne-1" />
+              <TextThre src={Text3} alt="textOne-3" />
+            </TextAll>
             <ImagemFace src={Face} alt="face" />
           </PromoContainer>
 
