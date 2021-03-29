@@ -18,10 +18,12 @@ import Face from '../../assets/Card/FRIDA.png'
 import TextOneImage from '../../assets/Card/Texto.png'
 import Text1Image from '../../assets/Card/Texto-1.png'
 import Text3 from '../../assets/Card/Texto-2.png'
+import Header from '../Header/index'
 
 function Home() {
   return (
     <>
+      <Header />
       <Container>
         {/* <ContainerFoto>
           <Image src={fotos} alt="foto" />

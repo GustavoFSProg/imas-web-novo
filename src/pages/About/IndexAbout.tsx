@@ -15,10 +15,12 @@ import {
 } from './styles'
 import ImanImage from '../../assets/Ellipse 8.png'
 import fotos from '../../assets/placas2.png'
+import Header from '../Header/index'
 
 function About() {
   return (
     <>
+      <Header />
       <Container>
         <ContainerFoto>
           <Image src={fotos} alt="foto" />

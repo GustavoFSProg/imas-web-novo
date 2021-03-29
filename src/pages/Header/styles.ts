@@ -73,3 +73,10 @@ export const ImageFooter = styled.p`
 
   color: #ffffff;
 `
+export const Lista = styled.ul`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  text-decoration: none;
+`
