@@ -18,6 +18,8 @@ export const CardContainer = styled.div`
   @media screen and (max-width: 850px) {
     margin-top: 30px;
     height: 650px;
+    display: flex;
+    flex-direction: row;
   }
 
   @media screen and (max-width: 600px) {
@@ -77,7 +79,7 @@ export const ImagemCard = styled.img`
 
   @media screen and (max-width: 600px) {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 `
 
@@ -270,4 +272,37 @@ export const ContainerFoto = styled.div`
 export const Image = styled.img`
   width: 10%;
   height: 100%;
+`
+export const PromoContainer = styled.div`
+  width: 682px;
+  height: 202px;
+  left: 618px;
+  top: 8px;
+
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
+`
+
+export const ImagemAvatar = styled.img`
+  width: 18%;
+  margin-left: 20px;
+  margin-top: 10px;
+  align-items: left;
+  justify-content: left;
+  display: flex;
+`
+
+export const ImagemFace = styled.img`
+  width: 18%;
+  margin-right: 20px;
+  margin-top: 10px;
+  align-items: right;
+  justify-content: right;
+  display: flex;
 `

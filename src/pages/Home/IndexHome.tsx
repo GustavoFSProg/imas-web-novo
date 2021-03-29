@@ -1,7 +1,16 @@
 import React from 'react'
-import { CardContainer, ImagemCard, Container, Footer, Data } from './styles'
+import {
+  CardContainer,
+  ImagemFace,
+  ImagemAvatar,
+  Container,
+  Footer,
+  Data,
+  PromoContainer,
+} from './styles'
 // import ImanImage from '../../assets/Ellipse 8.png'
-import card from '../../assets/Card.png'
+import Avatar from '../../assets/Card/BASTA.png'
+import Face from '../../assets/Card/FRIDA.png'
 
 function Home() {
   return (
@@ -20,7 +29,12 @@ function Home() {
           <Image src={fotos} alt="foto" />
         </ContainerFoto> */}
         <CardContainer>
-          <ImagemCard src={card} alt="cardFoto" />
+          <PromoContainer>
+            <ImagemAvatar src={Avatar} alt="avatar" />
+            <ImagemFace src={Face} alt="face" />
+          </PromoContainer>
+
+          {/* <ImagemCard src={card} alt="cardFoto" /> */}
         </CardContainer>
         <Footer>
           <Data>©2020 Imagens.Arte CNPJ: 29.779.590/0001-84 São Leopoldo-RS</Data>
