@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const CardContainer = styled.div`
   width: 95%;
-  height: 437px;
+  height: 232px;
   background: #1aa27c;
   /* background: yellow; */
   border-radius: 12px;
@@ -353,7 +353,7 @@ export const TextTwo = styled.img`
 
 export const TextThre = styled.img`
   width: 100%;
-  height: 8%;
+  height: 12%;
   margin-right: 20px;
   margin-top: 10px;
   align-items: right;
@@ -361,9 +361,10 @@ export const TextThre = styled.img`
   display: flex;
 
   @media screen and (max-width: 420px) {
-    height: auto;
-    width: 172%;
+    height: 13%;
+    width: 182%;
     margin-top: 4px;
+    margin-left: 20px;
   }
 `
 
