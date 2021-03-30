@@ -3,6 +3,7 @@ import Carousel from 'react-elastic-carousel'
 import Card from '../assets/Card.png'
 import placas2 from '../assets/placas2.png'
 import Elipse from '../assets/Ellipse 8.png'
+import { CarouselContainer } from './style'
 
 class App extends Component {
   state = {
@@ -17,13 +18,15 @@ class App extends Component {
   render() {
     const { items } = this.state
     return (
-      <Carousel isRTL={true}>
-        {items.map((item) => (
-          <div key={item.id}>
-            <img src={item.embed} alt="f" />
-          </div>
-        ))}
-      </Carousel>
+      <CarouselContainer>
+        <Carousel isRTL={false} enableAutoPlay autoPlaySpeed={3500} transitionMs={860}>
+          {items.map((item) => (
+            <div key={item.id}>
+              <img src={item.embed} alt="f" style={{ width: '100%', height: '190px' }} />
+            </div>
+          ))}
+        </Carousel>
+      </CarouselContainer>
     )
   }
 }
