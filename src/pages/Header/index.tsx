@@ -11,9 +11,10 @@ function Header() {
           to="/"
           style={{
             textDecoration: 'none',
-            color: ' #1aa27c',
+            color: ' #006666',
             fontFamily: 'Lato',
-            fontSize: '19px',
+            fontSize: '16px',
+            fontWeight: 'bold',
           }}
         >
           Home
@@ -24,12 +25,13 @@ function Header() {
           to="/about"
           style={{
             textDecoration: 'none',
-            color: ' #1aa27c',
+            color: ' #006666',
             fontFamily: 'Lato',
-            fontSize: '19px',
+            fontSize: '16px',
+            fontWeight: 'bold',
           }}
         >
-          About
+          Sobre
         </Link>
       </Lista>
 

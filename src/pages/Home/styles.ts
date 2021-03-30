@@ -293,15 +293,17 @@ export const PromoContainer = styled.div`
 `
 
 export const ImagemAvatar = styled.img`
-  width: 18%;
+  width: 56%;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 4px;
   align-items: left;
   justify-content: left;
   display: flex;
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 520px) {
     margin-left: 0px;
+    width: 95%;
+    height: 180px;
   }
 `
 
@@ -378,4 +380,8 @@ export const TextAll = styled.div`
   line-height: 43.2px;
   margin-top: 12px;
   margin-bottom: 20px;
+`
+export const ContainerCarousel = styled.div`
+  margin-top: 105px;
+  width: 80%;
 `
