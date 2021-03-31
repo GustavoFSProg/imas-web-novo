@@ -41,9 +41,12 @@ function Home() {
       </Container>
       <ContainerReactPlayer>
         <ReactPlayer
-          width="100%"
+          controls
+          width="70%"
           playing={true}
-          height="100%"
+          height="60%"
+          volume={1}
+          muted
           url="https://www.youtube.com/embed/tAGnKpE4NCI"
         />
       </ContainerReactPlayer>

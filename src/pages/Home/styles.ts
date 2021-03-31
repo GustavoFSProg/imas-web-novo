@@ -36,7 +36,7 @@ export const ContainerReactPlayer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: -130px;
 `
 export const Footer = styled.div`
   position: absolute;
