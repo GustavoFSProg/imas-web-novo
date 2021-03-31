@@ -19,7 +19,7 @@ class App extends Component {
     const { items } = this.state
     return (
       <CarouselContainer>
-        <Carousel isRTL={false} enableAutoPlay autoPlaySpeed={3500} transitionMs={860}>
+        <Carousel isRTL={false} enableAutoPlay autoPlaySpeed={3000} transitionMs={1060}>
           {items.map((item) => (
             <div key={item.id}>
               <img src={item.embed} alt="f" style={{ width: '100%', height: '190px' }} />

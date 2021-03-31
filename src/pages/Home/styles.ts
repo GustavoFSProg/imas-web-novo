@@ -12,6 +12,7 @@ export const CardContainer = styled.div`
   font-size: 25px;
   display: flex;
   /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -26,6 +27,16 @@ export const CardContainer = styled.div`
     margin-top: 30px;
     height: 400px;
   }
+`
+
+export const ContainerReactPlayer = styled.div`
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 `
 export const Footer = styled.div`
   position: absolute;
