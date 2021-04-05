@@ -25,6 +25,7 @@ class App extends Component {
           autoPlay
           interval={3000}
           showThumbs={false}
+          stopOnHover
           showArrows
           infiniteLoop
           transitionTime={1060}
