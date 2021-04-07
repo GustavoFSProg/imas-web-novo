@@ -25,13 +25,17 @@ function Home() {
           </ContainerCarousel>
         </CardContainer>
 
-        {/* <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/tAGnKpE4NCI"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        /> */}
+        <ContainerReactPlayer>
+          <ReactPlayer
+            controls
+            width="100%"
+            playing={true}
+            height="70%"
+            volume={1}
+            muted
+            url="https://www.youtube.com/watch?v=wiP0lPU8puM"
+          />
+        </ContainerReactPlayer>
 
         <Footer>
           <Data>©2020 Imagens.Arte CNPJ: 29.779.590/0001-84 São Leopoldo-RS</Data>
@@ -39,17 +43,6 @@ function Home() {
           <Data>©2020 Imagens.Arte CNPJ: 29.779.590/0001-84 São Leopoldo-RS</Data>
         </Footer>
       </Container>
-      <ContainerReactPlayer>
-        <ReactPlayer
-          controls
-          width="70%"
-          playing={true}
-          height="60%"
-          volume={1}
-          muted
-          url="https://www.youtube.com/embed/tAGnKpE4NCI"
-        />
-      </ContainerReactPlayer>
     </>
   )
 }

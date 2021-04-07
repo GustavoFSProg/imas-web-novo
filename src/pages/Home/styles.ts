@@ -33,10 +33,11 @@ export const ContainerReactPlayer = styled.div`
   width: 100%;
   height: 1000px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: -130px;
+  flex-direction: column;
+  margin-top: 25px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin-top: -155px; */
 `
 export const Footer = styled.div`
   position: absolute;
@@ -96,12 +97,13 @@ export const ImagemCard = styled.img`
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
-  background: #e5e5e5;
-  height: 100%;
+  /* background: #e5e5e5; */
+  background: orange;
+  /* height: 10%; */
 `
 export const TitleContainer = styled.div`
   width: 45%;
