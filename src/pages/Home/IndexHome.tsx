@@ -33,7 +33,7 @@ function Home() {
             height="70%"
             volume={1}
             muted
-            url="https://www.youtube.com/watch?v=wiP0lPU8puM"
+            url="https://www.youtube.com/watch?v=yGqP54lv9q4"
           />
         </ContainerReactPlayer>
 

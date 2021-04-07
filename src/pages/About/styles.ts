@@ -6,7 +6,7 @@ export const CardContainer = styled.div`
   background: #1aa27c;
   /* background: yellow; */
   border-radius: 12px;
-  margin-top: 86px;
+  margin-top: -56px;
   color: white;
   /* color: yellow; */
   font-size: 25px;
@@ -19,7 +19,7 @@ export const CardContainer = styled.div`
   }
 
   @media screen and (max-width: 600px) {
-    margin-top: 30px;
+    margin-top: -286px;
     height: 400px;
   }
 `
@@ -28,7 +28,7 @@ export const Footer = styled.div`
   width: 100%;
   height: 92px;
   left: 1px;
-  top: 1000px;
+  top: 510px;
   margin-top: 320px;
   display: flex;
   align-items: center;
@@ -75,8 +75,10 @@ export const Container = styled.div`
   align-items: center;
   text-align: center;
   justify-content: center;
-  background: #e5e5e5;
-  height: 100%;
+  /* background: #e5e5e5; */
+  background: #ffe4b3;
+
+  height: 780px;
 `
 export const TitleContainer = styled.div`
   width: 45%;

@@ -45,7 +45,7 @@ export const Footer = styled.div`
   height: 92px;
   left: 1px;
   top: 1000px;
-  margin-top: 320px;
+  margin-top: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,8 +102,8 @@ export const Container = styled.div`
   text-align: center;
   justify-content: center;
   /* background: #e5e5e5; */
-  background: orange;
-  /* height: 10%; */
+  background: #ffe4b3;
+  height: 1080px;
 `
 export const TitleContainer = styled.div`
   width: 45%;

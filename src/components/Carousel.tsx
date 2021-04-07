@@ -22,7 +22,7 @@ class App extends Component {
     return (
       <CarouselContainer>
         <Carousel
-          autoPlay
+          // autoPlay
           interval={3000}
           showThumbs={false}
           stopOnHover
