@@ -26,15 +26,7 @@ function Home() {
         </CardContainer>
 
         <ContainerReactPlayer>
-          <ReactPlayer
-            controls
-            width="100%"
-            playing={true}
-            height="70%"
-            volume={1}
-            muted
-            url="https://www.youtube.com/watch?v=yGqP54lv9q4"
-          />
+          <ReactPlayer controls width="100%" playing={true} height="70%" volume={1} muted url="" />
         </ContainerReactPlayer>
 
         <Footer>
